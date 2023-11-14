@@ -6,7 +6,7 @@ Our team exists 3 members: Goncharov Artem(14 y.o., 4 years in IT), Gorskiy Trof
 
 # Problematics
 
-Rutube is a Russian-language platform with content in Russian. However, such content may be of interest to foreign users who do not know Russian. The interest lies in the fact that the same content can be viewed in different languages, which certainly expands the author’s audience.
+This solution is designed to duplicate videos from the Russian language. The interest lies in the fact that the same content can be viewed in different languages, which certainly expands the audience of the author.
 
 # Algorithm
 
@@ -30,7 +30,7 @@ Rutube is a Russian-language platform with content in Russian. However, such con
 !pip install spleeter
 !pip install pypinyin
 ```
-## 2) upload <a href="https://github.com/artemgoncarov/double_video_on_another_language/xtts">model</a>
+## 2) upload <a href="https://huggingface.co/coqui/XTTS-v2/tree/main">model</a>
 ```python
 config = XttsConfig()
 config.load_json("your/path/to/config.json")
